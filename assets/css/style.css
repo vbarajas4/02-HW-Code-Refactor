@@ -68,8 +68,8 @@ p {
     float: right;
     margin-left: 25px;
 }
-
-.content {
+/*changed div to main and removed class=content and made it universal*/
+main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
