@@ -11,9 +11,8 @@ making it accessible to smaller screen resolutions
 Making sure the elements make sense 
      like giving a name to the tab
      
-     vbarajas4
-/
-02-HW-Code-Refactor
+     GitHub Repository Link
+     vbarajas4/02-HW-Code-Refactor
 
-     LINK TO GITHUB 
+     LINK TO GITHUB of Deployed Webpage
      https://vbarajas4.github.io/02-HW-Code-Refactor/
