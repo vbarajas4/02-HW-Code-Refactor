@@ -23,13 +23,13 @@ h1 {
 h1 .seo {
     color: #d9dcd6;
 }
-/*changed div to nav and made it universal*/
+/*changed div to nav and made it universal I also changed the font-size from 20px to 16px in order to make it screen size friendly*/
 nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
 }
 /*since div was removed ul was made universal*/
 ul {
