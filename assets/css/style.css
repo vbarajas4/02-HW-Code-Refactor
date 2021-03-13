@@ -7,7 +7,7 @@
 body {
     background-color: #d9dcd6;
 }
-/*changed the header from class selector to a universal selector*/
+/*It made better sense to changed the header from class selector to a universal selector*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -23,7 +23,8 @@ h1 {
 h1 .seo {
     color: #d9dcd6;
 }
-/*changed div to nav and made it universal I also changed the font-size from 20px to 16px in order to make it screen size friendly*/
+/*In order to make website seo friendly I changed div to nav and made it universal I also changed the font-size from 20px to 18px 
+in order to make it screen size friendly when looking on a mobile browser*/
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -68,7 +69,7 @@ p {
     float: right;
     margin-left: 25px;
 }
-/*changed div to main and removed class=content and made it universal*/
+/*In order to make it SEO friendly I changed div to main and removed class=content and made it universal*/
 main {
     width: 75%;
     display: inline-block;
@@ -137,7 +138,7 @@ main {
     font-size: 36px;
 }
 
-/*Made footer universal instead of a class*/
+/*It made better sence to make footer universal instead of a class*/
 footer {
     padding: 30px;
     clear: both;
