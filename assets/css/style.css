@@ -7,35 +7,40 @@
 body {
     background-color: #d9dcd6;
 }
-/*It made better sense to changed the header from class selector to a universal selector*/
+
+/*Using semantic HTML, I changed the header from class selector to a universal selector*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
+
 /*since header is no longer a class it was removed from here to make it universal instead.*/
 h1 {
     display: inline-block;
     font-size: 48px;
 }
+
 /*since header is no longer a class it was removed from here to make it universal instead.*/
 h1 .seo {
     color: #d9dcd6;
 }
-/*In order to make website seo friendly I changed div to nav and made it universal I also changed the font-size from 20px to 18px 
-in order to make it screen size friendly when looking on a mobile browser*/
+
+/*Using semantic HTML instead to make website seo friendly, I changed div to nav and made it universal*/
 nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 18px;
+    font-size: 20px;
 }
+
 /*since div was removed ul was made universal*/
 ul {
     list-style-type: none;
 }
+
 /*since div was removed li was made universal*/
 li {
     display: inline-block;
@@ -69,7 +74,9 @@ p {
     float: right;
     margin-left: 25px;
 }
-/*In order to make it SEO friendly I changed div to main and removed class=content and made it universal*/
+
+/*Using semantic HTML instead of non-semantic HTML, 
+I changed div to main and removed class=content and made it universal*/
 main {
     width: 75%;
     display: inline-block;
@@ -95,7 +102,7 @@ main {
     color: #ffffff;
 }
 
-/*Got rid of the repetitive writing and consolidate it into one styling block*/
+/*Got rid of the repetitive format and consolidate it into one styling block*/
 .benefit-lead h3,
 .benefit-brand h3,
 .benefit-cost h3  {
@@ -103,7 +110,7 @@ main {
     text-align: center;
 }
 
-/*Got rid of the repetitive writing and consolidate it into one styling block*/
+/*Got rid of the repetitive format and consolidate it into one styling block*/
 .benefit-lead img,
 .benefit-brand img,
 .benefit-cost img  {
@@ -112,7 +119,7 @@ main {
     max-width: 150px;
 }
 
-/*Got rid of the repetitive writing and consolidate it into one styling block*/
+/*Got rid of the repetitive format and consolidate it into one styling block*/
 .search-engine-optimization,
 .online-reputation-management,
 .social-media-marketing {
@@ -124,7 +131,7 @@ main {
     color: #ffffff;
 }
 
-/*Got rid of the repetitive writing and consolidate it into one styling block*/
+/*Got rid of the repetitive format and consolidate it into one styling block*/
 .search-engine-optimization img, 
 .online-reputation-management img, 
 .social-media-marketing img {
@@ -138,13 +145,14 @@ main {
     font-size: 36px;
 }
 
-/*It made better sence to make footer universal instead of a class*/
+/*Using semantic HTML, it made better sence to make footer universal instead of a class*/
 footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
+
 /*Made footer universal instead of a class*/
 footer h2 {
     font-size: 20px;
